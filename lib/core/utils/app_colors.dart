@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
 
 abstract class AppColors {
-  AppColors._();
-
-  static const Color primary = Color(0xFFC49E85);
-
-  static const Color primaryVariant = Color(0xFF333333);
-
-  static const Color background = Color(0xFFFFFFFF);
-  static const Color surface = Color(0xFF6F6460);
-  static const Color error = Color(0xFFB00020);
+  static Color primaryColor = const Color(0xffC49E85);
+  static Color offWhite = const Color(0xffF8F4F9);
+  static Color deepBrown = const Color(0xff6B4B3E);
+  static Color grey = const Color(0xffC4C4C4);
+  static Color deepGrey = const Color(0xff6F6460);
+  static Color lightGrey = const Color(0xffB4B4B4);
+  static Color black = const Color(0xff333333);
 }
