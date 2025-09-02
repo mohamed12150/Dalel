@@ -1,23 +1,23 @@
 abstract class AppStrings {
-  AppStrings._();
+  //ToDo:All Strings
 
-  static const String appName = "Dalel";
-  static const String welcomeMessage =
-      "Explore The history with Dalel in a smart way";
-  static const String ourapp =
-      "Using our app’s history libraries you can find many historical periods";
-  static const String getStarted = "Get Started";
-  static const String explore = "Explore";
-  static const String skip = "Skip";
-  static const String next = "Next";
-  static const String previous = "Previous";
-  static const String login = "Login";
-  static const String register = "Register";
-  static const String email = "Email";
-  static const String password = "Password";
-  static const String confirmPassword = "Confirm Password";
-  static const String forgetPassword = "Forget Password?";
-  static const String resetPassword = "Reset Password";
-  static const String alreadyHaveAccount = "Already have an account?";
-  static const String loginHere = "Login here";
+  static const String appName = "Dalel",
+  //!On Boarding Strings
+  skip = "Skip", next = "Next", createAccount = "Create Account", loginNow = "Login Now",
+  //!Auth Strings
+  welcome = "Welcome!", welcomeBack = "Welcome Back!", fristName = "First Name", lastName = "Last Name", emailAddress = "Email Address", password = "Password", iHaveAgreeToOur = "I have agree to our ", termsAndCondition = "Terms and Condition", signUp = "Sign Up", signIn = "Sign In", alreadyHaveAnAccount = "Already have an account ? ", dontHaveAnAccount = "Don’t have an account ? ", forgotPassword = "Forgot Password ?",
+  //!Home Strings
+  recommendations = "Recommendations", about = "About", wars = "Wars",
+  //!Search Strings
+  searchDeepIntoTheHistory = "Search deep into the history", recent = "Recent",
+  //!Profile Strings
+  profile = "Profile", account = "Account", editProfile = "Edit Profile", notification = "Notification", general = "General", settings = "Settings", security = "Security", privacyPolicy = "Privacy Policy", logOut = "Log Out",
+  //!Bazar
+  bazar = "Bazar", historicalPeriods = "Historical periods", historicalCharacters = "Historical Characters", historyBooks = "History Books", historicalSouvenirs = "Historical Souvenirs",
+  //!Cart
+  myCart = "My Cart", totalPayment = "Total Payment", checkoutNow = "Checkout Now",
+  //!Payment Strings
+  checkoutScreen = "Checkout Screen", deliveryAddress = "Delivery Address", change = "Change", items = "1 items", selectedProduct = "Selected Product", paymentMethod = "Payment Method", confirmPayment = "Confirm Payment", orderSuccess = "Order Success", thankYou = "Thank you for your order here and your package will be sent to your address very quickly and fast good product", backToHome = "Back To Home",
+  //!Forgot password
+  forgotPasswordPage = "Forgot Password", sendResetPasswordLink = "Send Reset Passwrod Link", verificationNow = "Verification Now", resendCode = "Resend Code", verifyAccount = "Verify Account", enter4DigitCodeWeHaveSentTo = "Enter 4 digit code we have sent to ", haventReceivedVerificationCode = "Haven’t received verification code?";
 }
