@@ -3,7 +3,7 @@ abstract class AppStrings {
 
   static const String appName = "Dalel",
   //!On Boarding Strings
-  skip = "Skip", next = "Next", createAccount = "Create Account", loginNow = "Login Now",
+  skip = "Skip", next = "Next", createAccount = "Create Account", loginNow = "Login Now", explore = "Explore The history with Dalel in   a smart way",
   //!Auth Strings
   welcome = "Welcome!", welcomeBack = "Welcome Back!", fristName = "First Name", lastName = "Last Name", emailAddress = "Email Address", password = "Password", iHaveAgreeToOur = "I have agree to our ", termsAndCondition = "Terms and Condition", signUp = "Sign Up", signIn = "Sign In", alreadyHaveAnAccount = "Already have an account ? ", dontHaveAnAccount = "Don’t have an account ? ", forgotPassword = "Forgot Password ?",
   //!Home Strings
