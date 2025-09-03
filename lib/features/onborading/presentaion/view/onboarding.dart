@@ -15,13 +15,20 @@ class _OnboardingState extends State<Onboarding> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        body: Column(
-          children: [
-            Text(AppStrings.skip),
-            Onboardingwidget(),
-            CustomButton(),
-            SizedBox(height: 18),
-          ],
+        body: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16.0),
+          child: Column(
+            children: [
+              SizedBox(height: 18),
+              Align(
+                alignment: Alignment.centerRight,
+                child: Text(AppStrings.skip),
+              ),
+              Onboardingwidget(),
+              CustomButton(text: AppStrings.next),
+              SizedBox(height: 18),
+            ],
+          ),
         ),
       ),
     );

@@ -3,8 +3,8 @@ import 'package:dalel/core/utils/app_strings.dart';
 import 'package:flutter/material.dart';
 
 class CustomButton extends StatelessWidget {
-  const CustomButton({super.key});
-
+  const CustomButton({super.key, required this.text});
+  final String text;
   @override
   Widget build(BuildContext context) {
     return SizedBox(
@@ -19,7 +19,7 @@ class CustomButton extends StatelessWidget {
           ),
           textStyle: TextStyle(fontSize: 16),
         ),
-        child: Text(AppStrings.next, style: TextStyle(color: Colors.white)),
+        child: Text(text, style: TextStyle(color: Colors.white)),
       ),
     );
   }
