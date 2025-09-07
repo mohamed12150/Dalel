@@ -1,5 +1,5 @@
 import 'package:dalel/core/utils/app_colors.dart';
-import 'package:dalel/core/utils/app_strings.dart';
+
 import 'package:flutter/material.dart';
 
 class CustomButton extends StatelessWidget {

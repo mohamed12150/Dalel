@@ -17,14 +17,16 @@ class _OnboardingState extends State<Onboarding> {
       child: Scaffold(
         body: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16.0),
-          child: Column(
+          child: ListView(
+            physics: const BouncingScrollPhysics(),
             children: [
               SizedBox(height: 18),
               Align(
                 alignment: Alignment.centerRight,
                 child: Text(AppStrings.skip),
               ),
-              Onboardingwidget(),
+              OnboardingWidget(),
+              SizedBox(height: 40),
               CustomButton(text: AppStrings.next),
               SizedBox(height: 18),
             ],
